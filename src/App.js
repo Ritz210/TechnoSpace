@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+// import { Router, Link } from "@reach/router";
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+import NavbarMain from "./components/Navbar";
+import Home from './components/Home';
+// import Events from "./components/Events";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Selfs from "./components/selfassesment";
+import Aboutus from "./components/About_us";
+import Services from "./components/Services";
+import Team from "./components/team";
+import Coreteam from "./components/coreteam";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      // <div className="App">
+      <Router>
+        <NavbarMain />
+        <Route exact path="/" ><Home/></Route>
+        {/* <Route exact path="/events"><Events/></Route> */}
+        {/* <Route exact path="/about_us"><Aboutus/></Route> */}
+        {/* <Route exact path="/team" ><Team/></Route> */}
+        {/* <Route exact path="/services" ><Services/></Route> */}
+        {/* <Route exact path="/contact" ><Contact/></Route> */}
+        {/* <Route exact path="/coreteam" ><Coreteam/></Route> */}
+        {/* <Route exact path="/self" ><Selfs/></Route> */}
+{/* <Footer/> */}
+
+        {/* </div> */}
+      </Router>
+    );
+  }
 }
 
 export default App;
