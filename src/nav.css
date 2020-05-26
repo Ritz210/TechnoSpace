@@ -7,25 +7,20 @@
   right: 36px;
   top: 36px;
 }
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.nav-link, .NavDropdown {
+    color: #97b2bd !important;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    margin-top: 10px !important;
+    padding-top: 5px !important;
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.bm-menu {
+    background: rgb(0,0,0,0.5) !important;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
 }
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
-}
+
 .gifrock{
   /* position: relative; */
     /* display: flex; */

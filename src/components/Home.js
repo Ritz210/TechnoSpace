@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { stack as Menu } from 'react-burger-menu'
+
 import "../App.css";
 import "../nav.css";
 import Hero from "./Hero";
 import About from "./About";
-// import Package from "./Package";
-import Services from "./Services";
-import Contact from "./Contact";
+
+
+
 import Footer from "./Footer";
 import Particles from 'react-particles-js';
 

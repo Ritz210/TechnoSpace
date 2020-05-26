@@ -15,9 +15,9 @@ class NavbarMain extends React.Component {
     return (
       <Menu right>
         <a><Scrollchor to="page-wrap" animate={{ offset: 10, duration: 500 }} className="nav-link">Home</Scrollchor></a>
-        <a><Scrollchor to="abouthome" animate={{ offset: 10, duration: 500 }} className="nav-link">Sample</Scrollchor></a>
-        <a><Scrollchor to="#features" className="nav-link">Features</Scrollchor></a>
-        <a><Scrollchor to="footerBody" animate={{ offset: 10, duration: 500 }} className="nav-link">SignUp</Scrollchor></a>
+        <a><Scrollchor to="abouthome" animate={{ offset: 10, duration: 500 }} className="nav-link">About us</Scrollchor></a>
+        <a><Scrollchor to="ourclients" animate={{ offset: 10, duration: 500 }} className="nav-link">Our Clients</Scrollchor></a>
+        <a><Scrollchor to="footerBody" animate={{ offset: 10, duration: 500 }} className="nav-link">Contact us</Scrollchor></a>
       </Menu>
       // <Menu right>
       //   <a id="home" className="menu-item" href="/">Home</a>

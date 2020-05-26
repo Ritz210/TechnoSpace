@@ -8,13 +8,13 @@ import {
 import NavbarMain from "./components/Navbar";
 import Home from './components/Home';
 // import Events from "./components/Events";
-import Contact from "./components/Contact";
+
 import Footer from "./components/Footer";
-import Selfs from "./components/selfassesment";
-import Aboutus from "./components/About_us";
-import Services from "./components/Services";
-import Team from "./components/team";
-import Coreteam from "./components/coreteam";
+
+
+
+
+
 
 class App extends Component {
   render() {

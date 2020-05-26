@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import beach from "../img/corosal1.png";
 import resort from "../img/corosal2.png";
-import camp from "../img/corosal3.png";
+
 import mountain from "../img/corosal4.png";
 import gulp from "../img/corosal5.png";
 import gul from "../img/corosal6.png";
