@@ -130,8 +130,8 @@ class Footer extends Component {
 
                     <Dropdown.Menu>
                       <Dropdown.Item href="tel:787-016-0478">+91 7870160478</Dropdown.Item>
-                      <Dropdown.Item href="tel:859-800-4995">+91 8598004995</Dropdown.Item>
-                      <Dropdown.Item href="mailto: info@onelife.net.in"> info@onelife.net.in</Dropdown.Item>
+                      <Dropdown.Item href="tel:859-800-4995">+91 7001290055</Dropdown.Item>
+                      <Dropdown.Item href="mailto: info@onelife.net.in"> info@technoboot.in</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                     
