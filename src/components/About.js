@@ -105,7 +105,7 @@ class About extends Component {
               <div id="titles"><div id="titlecontent">
               
                 <h1>  Once upon a time not long back, </h1>
-              <div className="separator"></div>
+              {/* <div className="separator"></div> */}
              
 
                

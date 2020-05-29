@@ -154,13 +154,13 @@ class Footer extends Component {
               
             <div class="flexdiv">
          
-          <h5 className="bottom" align="center">&copy;2020  TECHNOBOOT</h5>
-          </div>
-{/*                 
+          {/* <h5 className="bottom" align="center">&copy;2020  TECHNOBOOT</h5>
+          </div> */}
+                
          <h5 className="bottom" align="center">&copy;  TECHNOBOOT<br/>
-         <br/>Developed & Maintained by <a href="https://technoboot.in/">
-           Technoboot Pvt. Ltd.</a></h5> */}
-          
+              <br />Content by :-  <a href="https://www.facebook.com/anand.sinha.7798574">
+                anand.sinha.</a></h5>
+          </div>
          
         </div>
       </div>
