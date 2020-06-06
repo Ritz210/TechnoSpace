@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Container, Row, Col, } from "reactstrap";
-import { Button, Avatar, Grid, Typography } from "@material-ui/core";
+
 import GlitchClip from 'react-glitch-effect/core/Clip';
-import Carousel from "react-multi-carousel";
+
 import "react-multi-carousel/lib/styles.css";
 import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 import "../App.css";
 import "../nav.css";
-import MainCarousel from "./Carousel";
+
 import { ParallaxProvider,ParallaxBanner,Parallax } from 'react-scroll-parallax';
 import about1 from "../img/rocket.png";
 import clients from "../img/clients.png";
@@ -26,13 +26,10 @@ import imgg3 from "../img/grap1.jpg";
 import imgd1 from "../img/d2.jpg";
 import imgd2 from "../img/d1.jpg";
 import imgd3 from "../img/d3.jpg";
-import Homeproblem from "../assets/svg/homeproblem-01.jpg";
-import Choose from "../assets/svg/whychooseus.jpg";
+
 import ReactCardFlip from 'react-card-flip';
 import { Card} from 'react-bootstrap';
-import Expertise from "../assets/svg/homeexperties.jpg";
-import Solution from "../assets/svg/homesolution.jpg";
-import { Redirect } from 'react-router-dom';
+
 
 // import { Grid } from "@material-ui/core";
 const card = {
