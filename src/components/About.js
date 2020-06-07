@@ -85,7 +85,7 @@ class About extends Component {
                 <ReactCardFlip flipDirection="Default card">
                   <div>
                     <Card className="carddesign" className="gifrock" style={{ width: '100%' }} >
-                      <Card.Img variant="top" src={"https://firebasestorage.googleapis.com/v0/b/project-app-f8702.appspot.com/o/rocket.png?alt=media&token=bdb03170-838a-492d-9181-0a42729ff989"} />
+                      <Card.Img variant="top" src={about1} />
                       
                     </Card>
                   </div>
