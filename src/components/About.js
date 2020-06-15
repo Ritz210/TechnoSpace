@@ -372,7 +372,7 @@ we cock-a-hoop in providing wings to achieve the dream. </span>
 
           <div className="clientshead">
             <Zoom left cascade>
-            <span >our clients</span>
+            <span >Top clients</span>
             </Zoom>
             <br/>
             <hr style={{

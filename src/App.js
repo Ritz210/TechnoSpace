@@ -9,7 +9,7 @@ import NavbarMain from "./components/Navbar";
 import Home from './components/Home';
 // import Events from "./components/Events";
 
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 
 
