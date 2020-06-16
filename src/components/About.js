@@ -79,7 +79,7 @@ class About extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>The best Website and app creator in Bhubaneswar. -Technoboot</title>
+          <title> Technoboot- The best Website and app creator in Bhubaneswar. </title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta name="generator" content="Website development Bhubaneswar,Best IT company in Orissa"/>
