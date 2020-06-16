@@ -79,7 +79,7 @@ class About extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          {/* <title>My Title</title> */}
+          <title>The best Website and app creator in Bhubaneswar. -Technoboot</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta name="generator" content="Website development Bhubaneswar,Best IT company in Orissa"/>
@@ -88,7 +88,8 @@ class About extends Component {
           <meta name="keywords" content="software companies in bhubaneswar, software company in odisha, software company in Bhubaneswar, software services company in bhubaneswar, software solution provider in Odisha"/>
           <meta name="description" content="We are Committed to Provide Best Websites, Android & IOS Apps, Digital Marketing Services at an affordable price range, We also Offer Internship for App & Web Development in Bhubaneswar India." />
           <meta name="revised" content="Technoboot, 2/2/2020" />
-          
+          <link rel="canonical" href=" https://technoboot.in/#page-wrap" />
+         
         </Helmet>
 
         <Container id="abouthome">
