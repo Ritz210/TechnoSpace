@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, } from "reactstrap";
-
+import { Helmet } from "react-helmet";
 import GlitchClip from 'react-glitch-effect/core/Clip';
 
 import "react-multi-carousel/lib/styles.css";
@@ -76,315 +76,292 @@ class About extends Component {
   
   render() {
     return (
-      <div >
-         
-        <Container id="abouthome" >
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          {/* <title>My Title</title> */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta name="generator" content="Website development Bhubaneswar,Best IT company in Orissa"/>
+          <meta name="author" content=" Technoboot Pvt. Ltd. "/>
+          <meta name="publisher" content=" Technoboot Pvt.Ltd."/>
+          <meta name="keywords" content="software companies in bhubaneswar, software company in odisha, software company in Bhubaneswar, software services company in bhubaneswar, software solution provider in Odisha"/>
+          <meta name="description" content="We are Committed to Provide Best Websites, Android & IOS Apps, Digital Marketing Services at an affordable price range, We also Offer Internship for App & Web Development in Bhubaneswar India." />
+          <meta name="revised" content="Technoboot, 2/2/2020" />
+          
+        </Helmet>
+
+        <Container id="abouthome">
           <Row className="aboutcard">
             <Col xs="6" sm="12" md="6" className="aboutimg" className="float">
-              <div >
+              <div>
                 <ReactCardFlip flipDirection="Default card">
                   <div>
-                    <Card className="carddesign" className="gifrock" style={{ width: '100%' }} >
+                    <Card
+                      className="carddesign"
+                      className="gifrock"
+                      style={{ width: "100%" }}
+                    >
                       <Card.Img variant="top" src={about1} />
-                      
                     </Card>
                   </div>
 
                   <div>
-                    <Card className="carddesign" style={{ width: '100%' }} ></Card>
-                     
+                    <Card
+                      className="carddesign"
+                      style={{ width: "100%" }}
+                    ></Card>
                   </div>
                 </ReactCardFlip>
               </div>
             </Col>
-            
-            <Col xs="6" sm="12" md="6" className="aboutcontent" >
-              <div id="titles"><div id="titlecontent">
-              
-                <h1>  Once upon a time not long back, </h1>
-              {/* <div className="separator"></div> */}
-             
 
-               
-              <p className="aboutmaincontentma">  
-                 
-                   few backbenchers decided to step out of comfort zone,
-                    to create an overall IT solution for all your related problems.
-                     They vowed to make e- solution available and accessible to all.
-                      They are here to give wings to dream you have dreamt,
-                       give more fuel but at the same time taking out 
-                       the fire(economical). May the force be with you.</p>
-             
-             
-              </div></div>
-              
-             
+            <Col xs="6" sm="12" md="6" className="aboutcontent">
+              <div id="titles">
+                <div id="titlecontent">
+                  <h1> Once upon a time not long back, </h1>
+                  {/* <div className="separator"></div> */}
+
+                  <p className="aboutmaincontentma">
+                    few backbenchers decided to step out of comfort zone, to
+                    create an overall IT solution for all your related problems.
+                    They vowed to make e- solution available and accessible to
+                    all. They are here to give wings to dream you have dreamt,
+                    give more fuel but at the same time taking out the
+                    fire(economical). May the force be with you.
+                  </p>
+                </div>
+              </div>
             </Col>
-             
           </Row>
-
         </Container>
 
-
-       
-
-        
         <div className="aboutdiv">
-        <Container className="aboutcont">
-          <Row className="aboutcard1">
-            <Col xs="6" sm="6" md="6" className="aboutimg">
-              <div class="homewrapper">
-                <div class="home1wrap">
-                    <GlitchClip duration="2.9s">                    
-                  <img className="img1" src={imga1} alt="loosego"  ></img> 
-                    </GlitchClip>
-                </div>
-                <div class="home2wrap">
-                    <GlitchClip duration="2.5s"> 
-                  <img className="img2" src={imga2} alt="loosego"  ></img> 
-                  </GlitchClip>
-                </div>
-                <div class="home3wrap">
-                    <GlitchClip duration="3.4s"> 
-                  <img className="img3" src={imga3} alt="loosego"  ></img> 
-                  </GlitchClip>
-                </div>
-              </div>
-            </Col>
-            <Col xs="6" sm="6" md="6" className="aboutcontent">
-              <div className="block">
-                <span className="block__caption block__caption--right">
-                    <Flip left cascade>
-                     The service we provide.
-                  </Flip>
-                  </span>
-                  <h2 className="block__title block__title--mars">
-                    <Fade right big cascade>
-                      App 
-        </Fade>
-                  </h2>
-                {/* <h2 className="block__title block__title--mars">serie Mars</h2> */}
-      
-
-
-    
-
-                <p className="block__content block__content--right">
-                    Our team of experts has incorporated industry 
-                    leading proficiency in technical ground. 
-                    Already provided innumerable groundbreaking solutions 
-                    to best in class UI mobile application for platforms
-                    such as android and IOS with all short of advance
-                     options making us unique and exclusive. 
-								</p>
-                <span className="block__caption block__caption--aligned">
-                    So here we stand to lay our 
-                      helping hand to make sure your dreams come true.     </span>
-  
-                
-							</div>
-            </Col>
-          </Row>
-
-        </Container>
-
-
-        
           <Container className="aboutcont">
-          <Row className="aboutcard1">
-            <Col xs="6" sm="6" md="6" className="aboutcontent">
-              <div className="blockm">
-                  <span className="block__caption block__caption--right">
-                    <Flip left cascade>
-                      Something more we provide.
-                  </Flip>
-                  </span>
-                  <h2 className="block__title block__title--mars">
-                    <Fade left big cascade>
-                      
-                      Web 
-        </Fade>
-                  </h2>
-
-
-
-
-
-                <p className="block__content block__content--right">
-                    "If you don't know what you want to achieve 
-                    in your presentation your audience never will.”
-                    said  Harvey Diamond when asked about way to be successful.
-                    And this is were we come in handy. 
-                    Our technical skill will help you create platform that is subtle,
-                    sharp, scintillating and of course smart so that your stature 
-                    travels world wide on web.
-								</p>
-                <span className="block__caption block__caption--aligned">
-                    'Sky is the limit ' , a philosophy that guides the millennials; 
-we cock-a-hoop in providing wings to achieve the dream.</span>
-
-
-              </div>
-            </Col>
-            <Col xs="6" sm="6" md="6" className="aboutimg">
-              <div class="homewrapperm">
+            <Row className="aboutcard1">
+              <Col xs="6" sm="6" md="6" className="aboutimg">
+                <div class="homewrapper">
                   <div class="home1wrap">
                     <GlitchClip duration="2.9s">
-                      <img className="img1" src={img1} alt="loosego"  ></img>
+                      <img className="img1" src={imga1} alt="loosego"></img>
                     </GlitchClip>
                   </div>
                   <div class="home2wrap">
                     <GlitchClip duration="2.5s">
-                      <img className="img2" src={img2} alt="loosego"  ></img>
+                      <img className="img2" src={imga2} alt="loosego"></img>
                     </GlitchClip>
                   </div>
                   <div class="home3wrap">
                     <GlitchClip duration="3.4s">
-                      <img className="img3" src={img3} alt="loosego"  ></img>
+                      <img className="img3" src={imga3} alt="loosego"></img>
                     </GlitchClip>
                   </div>
-              </div>
-            </Col>
-          </Row>
-
-        </Container>
-
-
-
-
-          <Container className="aboutcont">
-          <Row className="aboutcard1">
-            <Col xs="6" sm="6" md="6" className="aboutimg">
-              <div class="homewrapper">
-                  <div class="home1wrap">
-                    <GlitchClip duration="2.9s">
-                      <img className="img1" src={imgg1} alt="loosego"  ></img>
-                    </GlitchClip>
-                  </div>
-                  <div class="home2wrap">
-                    <GlitchClip duration="2.5s">
-                      <img className="img2" src={imgg2} alt="loosego"  ></img>
-                    </GlitchClip>
-                  </div>
-                  <div class="home3wrap">
-                    <GlitchClip duration="3.4s">
-                      <img className="img3" src={imgg3} alt="loosego"  ></img>
-                    </GlitchClip>
-                  </div>
-              </div>
-            </Col>
-            <Col xs="6" sm="6" md="6" className="aboutcontent">
-              <div className="block">
+                </div>
+              </Col>
+              <Col xs="6" sm="6" md="6" className="aboutcontent">
+                <div className="block">
                   <span className="block__caption block__caption--right">
                     <Flip left cascade>
-                      We are to designing field.
-                  </Flip>
+                      The service we provide.
+                    </Flip>
                   </span>
                   <h2 className="block__title block__title--mars">
                     <Fade right big cascade>
-                      Graphic
-                      <span>
-                      Designing 
-                      </span>
-        </Fade>
+                      App
+                    </Fade>
                   </h2>
+                  {/* <h2 className="block__title block__title--mars">serie Mars</h2> */}
 
+                  <p className="block__content block__content--right">
+                    Our team of experts has incorporated industry leading
+                    proficiency in technical ground. Already provided
+                    innumerable groundbreaking solutions to best in class UI
+                    mobile application for platforms such as android and IOS
+                    with all short of advance options making us unique and
+                    exclusive.
+                  </p>
+                  <span className="block__caption block__caption--aligned">
+                    So here we stand to lay our helping hand to make sure your
+                    dreams come true.{" "}
+                  </span>
+                </div>
+              </Col>
+            </Row>
+          </Container>
 
-
-
-                <p className="block__content block__content--right">
-                    They say 'first impression is last impression'.
-                    And we help you establish an everlasting impression on the customers.
-                    With our skilled hands in design team we'll provide 
-                    an iconic branding prospective to put you ahead of your competitors.
-								</p>
-                <span className="block__caption block__caption--aligned">
-                    'Sky is the limit ' , a philosophy that guides the millennials; 
-we cock-a-hoop in providing wings to achieve the dream. </span>
-
-
-              </div>
-            </Col>
-          </Row>
-
-        </Container>
-             
           <Container className="aboutcont">
             <Row className="aboutcard1">
               <Col xs="6" sm="6" md="6" className="aboutcontent">
                 <div className="blockm">
                   <span className="block__caption block__caption--right">
                     <Flip left cascade>
-                     The most availed service. 
-                  </Flip>
+                      Something more we provide.
+                    </Flip>
                   </span>
                   <h2 className="block__title block__title--mars">
                     <Fade left big cascade>
-                      Digital 
-                      <span>
-                      Marketing
-                      </span>
-        </Fade>
+                      Web
+                    </Fade>
                   </h2>
 
                   <p className="block__content block__content--right">
-                    We recognise the value of brand's perceptibility on social sites.
-                     Social media is new hot spot and undeniably the best place 
-                     to mark your presence. It creates goodwill and opportunities
-                      to collaborate with industry leaders.
-								</p>
+                    "If you don't know what you want to achieve in your
+                    presentation your audience never will.” said Harvey Diamond
+                    when asked about way to be successful. And this is were we
+                    come in handy. Our technical skill will help you create
+                    platform that is subtle, sharp, scintillating and of course
+                    smart so that your stature travels world wide on web.
+                  </p>
                   <span className="block__caption block__caption--aligned">
-                    Our sincerity is to turn conventional and incommodious way 
-                    of business into lucid and loving platform to transact. </span>
-
-
+                    'Sky is the limit ' , a philosophy that guides the
+                    millennials; we cock-a-hoop in providing wings to achieve
+                    the dream.
+                  </span>
                 </div>
               </Col>
               <Col xs="6" sm="6" md="6" className="aboutimg">
                 <div class="homewrapperm">
                   <div class="home1wrap">
                     <GlitchClip duration="2.9s">
-                      <img className="img1" src={imgd1} alt="loosego"  ></img>
+                      <img className="img1" src={img1} alt="loosego"></img>
                     </GlitchClip>
                   </div>
                   <div class="home2wrap">
                     <GlitchClip duration="2.5s">
-                      <img className="img2" src={imgd2} alt="loosego"  ></img>
+                      <img className="img2" src={img2} alt="loosego"></img>
                     </GlitchClip>
                   </div>
                   <div class="home3wrap">
                     <GlitchClip duration="3.4s">
-                      <img className="img3" src={imgd3} alt="loosego"  ></img>
+                      <img className="img3" src={img3} alt="loosego"></img>
                     </GlitchClip>
                   </div>
                 </div>
               </Col>
             </Row>
-
           </Container>
 
+          <Container className="aboutcont">
+            <Row className="aboutcard1">
+              <Col xs="6" sm="6" md="6" className="aboutimg">
+                <div class="homewrapper">
+                  <div class="home1wrap">
+                    <GlitchClip duration="2.9s">
+                      <img className="img1" src={imgg1} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                  <div class="home2wrap">
+                    <GlitchClip duration="2.5s">
+                      <img className="img2" src={imgg2} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                  <div class="home3wrap">
+                    <GlitchClip duration="3.4s">
+                      <img className="img3" src={imgg3} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                </div>
+              </Col>
+              <Col xs="6" sm="6" md="6" className="aboutcontent">
+                <div className="block">
+                  <span className="block__caption block__caption--right">
+                    <Flip left cascade>
+                      We are to designing field.
+                    </Flip>
+                  </span>
+                  <h2 className="block__title block__title--mars">
+                    <Fade right big cascade>
+                      Graphic
+                      <span>Designing</span>
+                    </Fade>
+                  </h2>
 
+                  <p className="block__content block__content--right">
+                    They say 'first impression is last impression'. And we help
+                    you establish an everlasting impression on the customers.
+                    With our skilled hands in design team we'll provide an
+                    iconic branding prospective to put you ahead of your
+                    competitors.
+                  </p>
+                  <span className="block__caption block__caption--aligned">
+                    'Sky is the limit ' , a philosophy that guides the
+                    millennials; we cock-a-hoop in providing wings to achieve
+                    the dream.{" "}
+                  </span>
+                </div>
+              </Col>
+            </Row>
+          </Container>
 
+          <Container className="aboutcont">
+            <Row className="aboutcard1">
+              <Col xs="6" sm="6" md="6" className="aboutcontent">
+                <div className="blockm">
+                  <span className="block__caption block__caption--right">
+                    <Flip left cascade>
+                      The most availed service.
+                    </Flip>
+                  </span>
+                  <h2 className="block__title block__title--mars">
+                    <Fade left big cascade>
+                      Digital
+                      <span>Marketing</span>
+                    </Fade>
+                  </h2>
+
+                  <p className="block__content block__content--right">
+                    We recognise the value of brand's perceptibility on social
+                    sites. Social media is new hot spot and undeniably the best
+                    place to mark your presence. It creates goodwill and
+                    opportunities to collaborate with industry leaders.
+                  </p>
+                  <span className="block__caption block__caption--aligned">
+                    Our sincerity is to turn conventional and incommodious way
+                    of business into lucid and loving platform to transact.{" "}
+                  </span>
+                </div>
+              </Col>
+              <Col xs="6" sm="6" md="6" className="aboutimg">
+                <div class="homewrapperm">
+                  <div class="home1wrap">
+                    <GlitchClip duration="2.9s">
+                      <img className="img1" src={imgd1} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                  <div class="home2wrap">
+                    <GlitchClip duration="2.5s">
+                      <img className="img2" src={imgd2} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                  <div class="home3wrap">
+                    <GlitchClip duration="3.4s">
+                      <img className="img3" src={imgd3} alt="loosego"></img>
+                    </GlitchClip>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
 
-
         <div className="colpara" id="ourclients">
-
           <div className="clientshead">
             <Zoom left cascade>
-            <span >Top clients</span>
+              <span>Top clients</span>
             </Zoom>
-            <br/>
-            <hr style={{
-              display: 'inline-block',
-              width: '200px',
-              height: '0px',
-              marginbottom: '10px',
-              background: 'linear-gradient(45deg,#ddd6f3, #faaca8)',
-            }}></hr>
+            <br />
+            <hr
+              style={{
+                display: "inline-block",
+                width: "200px",
+                height: "0px",
+                marginbottom: "10px",
+                background: "linear-gradient(45deg,#ddd6f3, #faaca8)",
+              }}
+            ></hr>
           </div>
 
-          <img className="clientss" src={clients} alt="loosego" ></img>
+          <img className="clientss" src={clients} alt="loosego"></img>
           {/* <Carousel
             swipeable={true}
             draggable={false}
@@ -413,14 +390,8 @@ we cock-a-hoop in providing wings to achieve the dream. </span>
             <div> <img className="imggg2" src={imggg4} alt="loosego"  ></img></div>
           </Carousel>
           */}
-        {/* <MainCarousel /> */}
-
+          {/* <MainCarousel /> */}
         </div>
-        
-        
-
-       
-                    
       </div>
     );
   }
