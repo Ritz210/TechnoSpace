@@ -16,8 +16,8 @@ const Hero = () => (
             
           </div>
          
-          <div className="homemain1content">TECHNOBOOT</div>
-          <h3 className="homemaincontent">To Infinity And Beyond</h3> 
+          <div className="homemain1content">RITWICK KUMAR</div>
+          <h3 className="homemaincontent">B-Tech(Computer Science & Engineering)</h3> 
       
           {/* <Button outline color="primary" href="#mainCarousel">
             Explore More

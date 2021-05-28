@@ -79,17 +79,28 @@ class About extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Technoboot- The best Website and app creator in Bhubaneswar. </title>
+          <title>
+            {" "}
+            Technoboot- The best Website and app creator in Bhubaneswar.{" "}
+          </title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
-          <meta name="generator" content="Website development Bhubaneswar,Best IT company in Orissa"/>
-          <meta name="author" content=" Technoboot Pvt. Ltd. "/>
-          <meta name="publisher" content=" Technoboot Pvt.Ltd."/>
-          <meta name="keywords" content="software companies in bhubaneswar, software company in odisha, software company in Bhubaneswar, software services company in bhubaneswar, software solution provider in Odisha"/>
-          <meta name="description" content="We are Committed to Provide Best Websites, Android & IOS Apps, Digital Marketing Services at an affordable price range, We also Offer Internship for App & Web Development in Bhubaneswar India." />
+          <meta
+            name="generator"
+            content="Website development Bhubaneswar,Best IT company in Orissa"
+          />
+          <meta name="author" content=" Technoboot Pvt. Ltd. " />
+          <meta name="publisher" content=" Technoboot Pvt.Ltd." />
+          <meta
+            name="keywords"
+            content="software companies in bhubaneswar, software company in odisha, software company in Bhubaneswar, software services company in bhubaneswar, software solution provider in Odisha"
+          />
+          <meta
+            name="description"
+            content="We are Committed to Provide Best Websites, Android & IOS Apps, Digital Marketing Services at an affordable price range, We also Offer Internship for App & Web Development in Bhubaneswar India."
+          />
           <meta name="revised" content="Technoboot, 2/2/2020" />
           <link rel="canonical" href=" https://technoboot.in/#page-wrap" />
-         
         </Helmet>
 
         <Container id="abouthome">
@@ -120,16 +131,25 @@ class About extends Component {
             <Col xs="6" sm="12" md="6" className="aboutcontent">
               <div id="titles">
                 <div id="titlecontent">
-                  <h1> Once upon a time not long back, </h1>
+                  <h1>
+                    {" "}
+                    My fervor attitude
+                    {/* Once upon a time not long back, */}
+                  </h1>
                   {/* <div className="separator"></div> */}
 
                   <p className="aboutmaincontentma">
-                    few backbenchers decided to step out of comfort zone, to
-                    create an overall IT solution for all your related problems.
-                    They vowed to make e- solution available and accessible to
-                    all. They are here to give wings to dream you have dreamt,
-                    give more fuel but at the same time taking out the
-                    fire(economical). May the force be with you.
+                    toward learning and inclination towards new technologies has
+                    always been my strong foot . I will be fully devoting my
+                    training and skills for the growth of your company with a
+                    secure career opportunity.
+                    {/* few backbenchers
+                    decided to step out of comfort zone, to create an overall IT
+                    solution for all your related problems. They vowed to make
+                    e- solution available and accessible to all. They are here
+                    to give wings to dream you have dreamt, give more fuel but
+                    at the same time taking out the fire(economical). May the
+                    force be with you. */}
                   </p>
                 </div>
               </div>
@@ -163,27 +183,24 @@ class About extends Component {
                 <div className="block">
                   <span className="block__caption block__caption--right">
                     <Flip left cascade>
-                      The service we provide.
+                      Experience
                     </Flip>
                   </span>
                   <h2 className="block__title block__title--mars">
                     <Fade right big cascade>
-                      App
+                      Centroxy Solution Pvt Ltd
                     </Fade>
                   </h2>
                   {/* <h2 className="block__title block__title--mars">serie Mars</h2> */}
 
                   <p className="block__content block__content--right">
-                    Our team of experts has incorporated industry leading
-                    proficiency in technical ground. Already provided
-                    innumerable groundbreaking solutions to best in class UI
-                    mobile application for platforms such as android and IOS
-                    with all short of advance options making us unique and
-                    exclusive.
+                    Software Developer Intern, Worked as a Full Stack developer
+                    using Asp.net core and react js. Worked on a live Project
+                    “Universal Weather and Aviation”
                   </p>
                   <span className="block__caption block__caption--aligned">
-                    So here we stand to lay our helping hand to make sure your
-                    dreams come true.{" "}
+                    Nov 2020 – Present
+                    <br /> Location – Bhubaneswar
                   </span>
                 </div>
               </Col>
